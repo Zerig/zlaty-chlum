@@ -1,0 +1,329 @@
+/*******************
+	RESET
+********************/
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure,footer, header, menu, nav, section, summary,time, mark, audio, video {line-height: 140%;margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;list-style-type:none;}
+body {line-height:1; font-family: Robot-Regular;}
+article,aside,details,figcaption,figure,footer,header,menu,nav,section {display:block;}
+nav ul {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none;}
+a {margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;}
+ins {background-color:#ff9;color:#000;text-decoration:none;}
+mark {background-color:#ff9;color:#000;font-style:italic;font-weight:bold;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {border-bottom:1px dotted;cursor:help;}
+table {border-collapse:collapse;border-spacing:0;}
+hr {display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0;}
+input, select {vertical-align:middle;}
+/*******************
+	FONTS
+********************/
+@font-face {
+	font-family: 'Robot-Regular';
+	src: url('_zlatychlum-files/fonts/Roboto-Regular.ttf');
+}
+
+.f-jaapoki {font-family: Jaapoki !important;}
+
+.f-weenreg {font-family: WeenReg !important;}
+
+.f-calibry {font-family: Calibri !important;}
+
+.f-robot-reg {font-family: Robot-Regular !important;}
+
+.f-capsuula {font-family: Capsuula !important;}
+
+.f-resagl {font-family: ResagL !important;}
+
+.f-anton {font-family: Anton !important;}
+.f-tahoma {font-family: Tahoma !important;}
+
+.f-suez {font-family: Suez !important;}
+.f-arima {font-family: Arima Madurai !important;}
+
+.f-garamond {font-family: Garamond !important;}
+
+.f-times {font-family: "Times New Roman", Times !important;}
+
+.f-arial {font-family: Arial !important;}
+
+.f-georgia {font-family: Georgia !important;}
+
+.f-verdana {font-family: Verdana !important;}
+
+.f-ms-sans-serif {font-family: MS-Sans-Serif !important;}
+
+.f-tahoma {font-family: Tahoma, Geneva, sans-serif !important;}
+
+.f-lucida {font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif !important;}
+
+.f-impact {font-family: Impact, Charcoal, sans-serif !important;}
+
+.f-palatino {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;}
+
+
+
+h1 {font-size: 36px; color: #535353; padding-bottom: 10px;}
+h2 {font-size: 24px; color: #4b4b4b; padding-bottom: 10px;}
+h3 {padding-bottom: 10px;}
+
+/*******************
+	GENERAL
+********************/
+body {width: 100%;}
+
+/*******************
+	CONTENT
+********************/
+.content {width: 960px; margin: 0 auto;}
+
+/*******************
+	HEADER
+********************/
+.header {height: 71px; background-color: #f7f7f9; padding-top:15px;}
+.header .top-menu-block {float: right;}
+.header .top-menu-block ul li { display: inline-block; padding-top: 15px; margin-right: -2px;}
+.header .top-menu-block ul li a {font-family: Robot-Regular;} /* FONT */
+.header .top-menu-block ul li a {color: #818a91; font-size: 16px; text-decoration: none; text-transform: uppercase; background-color: #e2e4e5; padding: 33px 20px;}
+.header .top-menu-block ul li a:hover, .header .top-menu-block ul li.menu_item_selected a {text-decoration: underline;}
+
+/*******************
+	IMAGE
+********************/
+.image {height: 371px; width: 100%; background-image: url("_zlatychlum-files/image.jpg"); background-repeat: no-repeat;}
+
+/*******************
+	LEFT-PANEL
+********************/
+.left-menu {width: 330px; float: left; margin-top: 16px;}
+.right-menu {width: 330px; float: right; margin-top: 40px;}
+.left-menu .menu-block {margin-left: -15px;}
+.right-menu .menu-block, .right-small-menu .menu-block {margin-right: 15px;}
+
+.menu-block ul li {border: 1px solid #e5e5e5; margin-bottom: -1px;}
+.menu-block ul li a {font-family: Robot-Regular; } /* FONT */
+.menu-block ul li a:hover, .menu-block ul li.menu_item_selected a {/* font-family: OpenBold; */} /* FONT */
+.menu-block ul li a {color: #434343; font-size: 16px; text-transform: uppercase; text-decoration: none; display: block; padding: 14px 45px 14px 32px;}
+.menu-block ul li a:hover, .menu-block ul li.menu_item_selected a {background-color: #95c11f; color: #ffffff;}
+
+/*******************
+	RIGHT-PANEL
+********************/
+.right-content {width: 590px; float: right; margin-top: 40px;}
+.left-content {width: 590px; float: left; margin-top: 40px;}
+.center-content {margin-top: 40px;}
+.center-content .left-column {width: 452px; margin-right: 28px; float: left;}
+.center-content .right-column {width: 452px; margin-left: 28px; float: right;}
+
+p, p.list-paragraph, ul.article-list li span {text-align: justify;}
+p, ul.article-list li span {font-size: 18px; padding-bottom: 25px;}
+/* p strong {color: #535353;} */
+p.list-paragraph, ul.article-list li span {padding-bottom: 0px;}
+ul.article-list {padding-bottom: 40px; margin-left: 40px; margin-top: 20px;}
+ul.article-list li {list-style-type: circle; font-size: 18px; line-height: 20px; margin-bottom: 10px;}
+
+/*******************
+	FOOTER
+********************/
+.footer {padding:32px 0 130px 0; margin: 120px 0 0 0; background-color: #f7f7f9; font-family: Calibri;}
+.footer img {float: left; margin: 0 18px 0 6px;}
+.footer p {color: #8c8c8c; font-size: 16px; padding-top: 5px;}
+.footer a {color: #8c8c8c; font-size: 16px; text-decoration: none;}
+.footer a:hover {text-decoration: underline;}
+
+.footer-divider {background-color: #7d7d7d; width: 1px; height: 40px; float: left; margin-top: 10px; margin-right: 20px;}
+
+.mobile-nav, .responsive-menu, .small-device-menu, .none {display: none;}
+
+@media screen and (max-width: 990px) {
+	/* CONTENT */
+	.content {width: 100%; margin: 0 auto;}
+
+	/* HEADER */
+	.header {height: 70px; background-color: #f7f7f9; padding-top:20px;}
+	.header .top-menu-block {float: right;}
+	.header .top-menu-block ul { display: none;}
+	.header .logo { margin-left: 20px;}
+
+	/* IMAGE */
+	.image {height: 170px; width: 100%; background-image: url("_zlatychlum-files/image.jpg"); background-repeat: no-repeat; background-position: 20% 50%;}
+
+	/* LEFT-PANEL */
+	.left-menu {display: none;}
+	.right-menu {display: none;}
+	.small-device-menu { display: block; margin: 16px 20px;}
+
+	.left-menu .menu-block {margin-left: 15px;}
+	.right-menu .menu-block {margin-right: 15px;}
+
+	/* RIGHT-PANEL */
+	.right-content, .left-content, .center-content {width: initial; padding: 0 20px 0 20px; margin-top: 20px; float: none;}
+	h1 {word-break: break-all; font-size: 30px;}
+	p, ul.article-list li span {font-size: 16px;}
+	.center-content .left-column, .center-content .right-column {width: 100%; float: none; margin-left: 0; margin-right: 0;}
+
+	/* FOOTER */
+	.footer { padding:20px 0 100px 0; margin: 50px 0 0 0;}
+	.footer img {float: left; margin: 0 33%; display: inline-block;}
+	.footer p {padding: 20px 15px 0 15px; display: inline-block;}
+	.footer p br {display: none;}
+
+	.footer-divider {display: none;}
+
+	.mobile-nav {display: inline; float: right; margin: 5px 15px 0 0;}
+	.menu-btn div {
+		position: absolute;
+		top: 64%;
+		padding-right: 8px;
+		margin-top: -0.50em;
+		line-height: 1.2;
+		font-size: 18px;
+		font-weight: 200;
+		vertical-align: middle;
+		z-index: 99;
+	}
+
+	.menu-btn {
+		background-color: #c3c3c3;
+		padding: 3px 5px;
+		border: 4px solid #7f7f7f;
+	}
+
+	.menu-btn span {
+		display: block;
+		width: 35px;
+		height: 4px;
+		margin: 5px 0;
+		background: #7f7f7f;
+		z-index: 99;
+		border-radius: 5px;
+	}
+
+	.responsive-menu{
+		display: none;
+	}
+
+	.expand {
+		display: block;
+		width: 100%;
+		float: right;
+		text-align: center;
+		margin: 15px 0;
+	}
+
+	.expand ul li { padding: 1px 0; }
+	.expand ul li a {font-family: Robot-Regular;} /* FONT */
+	.expand ul li a {color: #818a91; font-size: 20px; text-decoration: none; display: block; padding: 13px 0; text-transform: uppercase; background-color: #e2e4e5;}
+	.expand ul li a:hover, .expand ul li.menu_item_selected a {text-decoration: underline;}
+
+}
+
+
+
+/*******************
+	SPECIAL
+********************/
+.clearfix {clear: both;}
+
+
+
+
+@media (max-width: 900px) {.image {background-position: 25% 50%;}}
+@media (max-width: 850px) {.image {background-position: 28% 50%;}}
+@media (max-width: 800px) {.image {background-position: 31% 50%;}}
+@media (max-width: 750px) {.image {background-position: 35% 50%;}}
+
+@media (min-width: 991px) {.image {background-position: -482px 0;}}
+@media (min-width: 1010px) {.image {background-position: -478px 0;}}
+@media (min-width: 1020px) {.image {background-position: -472px 0;}}
+@media (min-width: 1030px) {.image {background-position: -468px 0;}}
+@media (min-width: 1040px) {.image {background-position: -462px 0;}}
+@media (min-width: 1050px) {.image {background-position: -458px 0;}}
+@media (min-width: 1060px) {.image {background-position: -452px 0;}}
+@media (min-width: 1070px) {.image {background-position: -448px 0;}}
+@media (min-width: 1080px) {.image {background-position: -442px 0;}}
+@media (min-width: 1090px) {.image {background-position: -438px 0;}}
+@media (min-width: 1100px) {.image {background-position: -432px 0;}}
+@media (min-width: 1110px) {.image {background-position: -428px 0;}}
+@media (min-width: 1120px) {.image {background-position: -422px 0;}}
+@media (min-width: 1130px) {.image {background-position: -418px 0;}}
+@media (min-width: 1140px) {.image {background-position: -412px 0;}}
+@media (min-width: 1150px) {.image {background-position: -408px 0;}}
+@media (min-width: 1160px) {.image {background-position: -402px 0;}}
+@media (min-width: 1170px) {.image {background-position: -398px 0;}}
+@media (min-width: 1180px) {.image {background-position: -392px 0;}}
+@media (min-width: 1190px) {.image {background-position: -388px 0;}}
+@media (min-width: 1200px) {.image {background-position: -382px 0;}}
+@media (min-width: 1210px) {.image {background-position: -378px 0;}}
+@media (min-width: 1220px) {.image {background-position: -372px 0;}}
+@media (min-width: 1230px) {.image {background-position: -368px 0;}}
+@media (min-width: 1240px) {.image {background-position: -362px 0;}}
+@media (min-width: 1250px) {.image {background-position: -358px 0;}}
+@media (min-width: 1260px) {.image {background-position: -352px 0;}}
+@media (min-width: 1270px) {.image {background-position: -348px 0;}}
+@media (min-width: 1280px) {.image {background-position: -342px 0;}}
+@media (min-width: 1290px) {.image {background-position: -338px 0;}}
+@media (min-width: 1300px) {.image {background-position: -332px 0;}}
+@media (min-width: 1310px) {.image {background-position: -328px 0;}}
+@media (min-width: 1320px) {.image {background-position: -322px 0;}}
+@media (min-width: 1330px) {.image {background-position: -318px 0;}}
+@media (min-width: 1340px) {.image {background-position: -312px 0;}}
+@media (min-width: 1350px) {.image {background-position: -308px 0;}}
+@media (min-width: 1360px) {.image {background-position: -302px 0;}}
+@media (min-width: 1370px) {.image {background-position: -298px 0;}}
+@media (min-width: 1380px) {.image {background-position: -292px 0;}}
+@media (min-width: 1390px) {.image {background-position: -288px 0;}}
+@media (min-width: 1400px) {.image {background-position: -282px 0;}}
+@media (min-width: 1410px) {.image {background-position: -278px 0;}}
+@media (min-width: 1420px) {.image {background-position: -272px 0;}}
+@media (min-width: 1430px) {.image {background-position: -268px 0;}}
+@media (min-width: 1440px) {.image {background-position: -262px 0;}}
+@media (min-width: 1450px) {.image {background-position: -258px 0;}}
+@media (min-width: 1460px) {.image {background-position: -252px 0;}}
+@media (min-width: 1470px) {.image {background-position: -248px 0;}}
+@media (min-width: 1480px) {.image {background-position: -242px 0;}}
+@media (min-width: 1480px) {.image {background-position: -238px 0;}}
+@media (min-width: 1490px) {.image {background-position: -232px 0;}}
+@media (min-width: 1500px) {.image {background-position: -228px 0;}}
+@media (min-width: 1510px) {.image {background-position: -222px 0;}}
+@media (min-width: 1520px) {.image {background-position: -218px 0;}}
+@media (min-width: 1530px) {.image {background-position: -212px 0;}}
+@media (min-width: 1540px) {.image {background-position: -208px 0;}}
+@media (min-width: 1550px) {.image {background-position: -202px 0;}}
+@media (min-width: 1560px) {.image {background-position: -198px 0;}}
+@media (min-width: 1570px) {.image {background-position: -192px 0;}}
+@media (min-width: 1580px) {.image {background-position: -188px 0;}}
+@media (min-width: 1590px) {.image {background-position: -182px 0;}}
+@media (min-width: 1600px) {.image {background-position: -178px 0;}}
+@media (min-width: 1610px) {.image {background-position: -172px 0;}}
+@media (min-width: 1620px) {.image {background-position: -168px 0;}}
+@media (min-width: 1630px) {.image {background-position: -162px 0;}}
+@media (min-width: 1640px) {.image {background-position: -158px 0;}}
+@media (min-width: 1650px) {.image {background-position: -152px 0;}}
+@media (min-width: 1660px) {.image {background-position: -148px 0;}}
+@media (min-width: 1670px) {.image {background-position: -142px 0;}}
+@media (min-width: 1680px) {.image {background-position: -138px 0;}}
+@media (min-width: 1690px) {.image {background-position: -132px 0;}}
+@media (min-width: 1700px) {.image {background-position: -128px 0;}}
+@media (min-width: 1710px) {.image {background-position: -122px 0;}}
+@media (min-width: 1720px) {.image {background-position: -118px 0;}}
+@media (min-width: 1730px) {.image {background-position: -112px 0;}}
+@media (min-width: 1740px) {.image {background-position: -108px 0;}}
+@media (min-width: 1750px) {.image {background-position: -102px 0;}}
+@media (min-width: 1760px) {.image {background-position: -98px 0;}}
+@media (min-width: 1770px) {.image {background-position: -92px 0;}}
+@media (min-width: 1780px) {.image {background-position: -88px 0;}}
+@media (min-width: 1790px) {.image {background-position: -82px 0;}}
+@media (min-width: 1800px) {.image {background-position: -78px 0;}}
+@media (min-width: 1810px) {.image {background-position: -72px 0;}}
+@media (min-width: 1820px) {.image {background-position: -68px 0;}}
+@media (min-width: 1830px) {.image {background-position: -62px 0;}}
+@media (min-width: 1840px) {.image {background-position: -58px 0;}}
+@media (min-width: 1850px) {.image {background-position: -52px 0;}}
+@media (min-width: 1860px) {.image {background-position: -48px 0;}}
+@media (min-width: 1870px) {.image {background-position: -42px 0;}}
+@media (min-width: 1880px) {.image {background-position: -38px 0;}}
+@media (min-width: 1890px) {.image {background-position: -32px 0;}}
+@media (min-width: 1900px) {.image {background-position: -28px 0;}}
+@media (min-width: 1910px) {.image {background-position: -22px 0;}}
+@media (min-width: 1920px) {.image {background-position: -0px 0;}}

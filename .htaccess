@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Administrace"
+AuthUserFile /var/www/hosting/zlatychlum.cz/.htpasswd
+require valid-user
